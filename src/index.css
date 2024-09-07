@@ -1,0 +1,17 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+body,html {
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  font-size: 10px;
+  padding: 0;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  font-family: Pretendard;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
