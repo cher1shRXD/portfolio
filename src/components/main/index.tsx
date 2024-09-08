@@ -19,21 +19,22 @@ const Main = () => {
             또한, 많은 팀 프로젝트에 참가 하며 팀 내 커뮤니케이션 능력을
             키워왔습니다.
           </S.Description>
-          <S.Contacts>
-            <S.ContactType>학력: </S.ContactType>대구소프트웨어마이스터고등학교 소프트웨어개발과(2027년
-            졸업예정)
-            <br />
-            <S.ContactType>주소: </S.ContactType>경상남도 합천군 합천읍 옥산로 19 수성오바드빌 501호
-            <br />
-            <S.ContactType>Tel: </S.ContactType>+82 010-4890-1466
-            <br />
-            <S.ContactType>E-mail: </S.ContactType>tw080401@naver.com
-          </S.Contacts>
           <S.HashTagWrap>
             <S.HashTag>#Frontend Developer</S.HashTag>
             <S.HashTag>#React.js</S.HashTag>
             <S.HashTag>#TypeScript</S.HashTag>
           </S.HashTagWrap>
+          <S.Contacts>
+            <S.ContactType>학력: </S.ContactType>대구소프트웨어마이스터고등학교
+            소프트웨어개발과(2027년 졸업예정)
+            <br />
+            <S.ContactType>주소: </S.ContactType>경상남도 합천군 합천읍 옥산로
+            19 수성오바드빌 501호
+            <br />
+            <S.ContactType>Tel: </S.ContactType>+82 010-4890-1466
+            <br />
+            <S.ContactType>E-mail: </S.ContactType>tw080401@naver.com
+          </S.Contacts>
         </S.WordWrap>
         <S.ProfileImg src="/assets/profile.JPG" />
       </S.Section>
