@@ -71,7 +71,7 @@ export const SectionTitle = styled.p`
 export const OneLinerWrap = styled.div`
   border-left: 0.4rem solid #a1d6b2;
   height: 5rem;
-  padding: 0 1rem;
+  padding: 0 2rem;
   display: flex;
   align-items: center;
   margin: 1rem 0;
