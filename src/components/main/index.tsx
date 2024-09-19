@@ -35,7 +35,19 @@ const Main = () => {
         </S.WordWrap>
         <S.ProfileImg src="/assets/profile.JPG" />
       </S.Section>
-      <S.Section>개발 중</S.Section>
+      <S.Section>
+        <S.WordWrap style={{justifyContent:'flex-start'}}>
+          <S.SectionTitle>Skills</S.SectionTitle>
+          <S.HashTagWrap>
+            <S.HashTag>#Web Developer</S.HashTag>
+            <S.HashTag>#But</S.HashTag>
+            <S.HashTag>#Can do Backend</S.HashTag>
+          </S.HashTagWrap>
+          <S.Description>
+            서버 개발에도 관심이 많고,<br /> NestJs와 같은 프레임워크를 통해 <br />서버를 만들고 배포한 경험이 있습니다.
+          </S.Description>
+        </S.WordWrap>
+      </S.Section>
     </S.Container>
   );
 }

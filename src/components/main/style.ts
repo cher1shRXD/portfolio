@@ -21,6 +21,15 @@ const CaretBlink = keyframes`
   }
 `;
 
+const PageIn = keyframes`
+  0%{
+    margin-left:5rem;
+  }
+  100%{
+    margin-left:0;
+  }
+`
+
 export const Container = styled.div`
   width: 100vw;
   height: 100vh;
@@ -28,6 +37,7 @@ export const Container = styled.div`
   padding-top: 8rem;
   overflow-y: scroll;
   scroll-behavior: smooth;
+  animation: ${PageIn} 1s forwards;
   @media (max-width: 700px) {
     padding-top: 15rem;
   }
@@ -124,4 +134,3 @@ export const HashTag = styled.p`
   margin-right: 2rem;
   color: #4c3bcf;
 `;
-
