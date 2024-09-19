@@ -31,7 +31,7 @@ const Main = () => {
         </S.WordWrap>
         <S.ProfileImg src="/assets/profile.JPG" />
       </S.Section>
-      <S.Section style={{ justifyContent: "center", gap: "3rem" }}>
+      <S.Section style={{ justifyContent: "center", gap: "3rem",flexWrap:'wrap' }}>
         <S.WordWrap style={{height:'min-content',gap:'1rem'}}>
           <S.SectionTitle>Skills</S.SectionTitle>
           <S.HashTagWrap>

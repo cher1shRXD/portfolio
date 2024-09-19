@@ -139,6 +139,7 @@ export const SkillWrap = styled.div`
   display:flex;
   flex-direction:column;
   justify-content:center;
+  align-items:center;
 `
 
 export const ImageWrap = styled.div`
