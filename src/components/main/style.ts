@@ -134,3 +134,25 @@ export const HashTag = styled.p`
   margin-right: 2rem;
   color: #4c3bcf;
 `;
+
+export const SkillWrap = styled.div`
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+`
+
+export const ImageWrap = styled.div`
+  width:90%;
+  max-width:50rem;
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:0.4rem;
+`
+
+
+export const SkillTitle = styled.p`
+  font-size:2rem;
+  margin:2.4rem 0 1.2rem 0;
+`
