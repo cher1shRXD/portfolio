@@ -52,6 +52,7 @@ export const Section = styled.div`
   flex-wrap: wrap-reverse;
   gap: 3rem;
   box-sizing: border-box;
+  margin-bottom:3rem;
 `;
 
 export const ProfileImg = styled.img`
