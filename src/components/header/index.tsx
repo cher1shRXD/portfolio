@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <S.Container>
       <S.Title>Cher1shRXD's Portfolio</S.Title>
-      <S.NavWrap>
+      {/* <S.NavWrap>
         <S.NavItem
           to="/"
           style={
@@ -63,7 +63,7 @@ const Header = () => {
         >
           DAYLIFE
         </S.NavItem>
-      </S.NavWrap>
+      </S.NavWrap> */}
     </S.Container>
   );
 }

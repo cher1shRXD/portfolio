@@ -13,13 +13,13 @@ export const Container = styled.div`
   box-sizing:border-box;
   padding: 0 3rem;
   background-color:white;
-  @media (max-width:700px) {
+  /* @media (max-width:700px) {
     height:15rem;
     flex-direction:column;
     align-items:center;
     justify-content:space-evenly;
     padding:0;
-  }
+  } */
 `
 export const Title = styled.p`
   font-size: 3.5rem;

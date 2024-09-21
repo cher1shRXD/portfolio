@@ -38,9 +38,9 @@ export const Container = styled.div`
   overflow-y: scroll;
   scroll-behavior: smooth;
   animation: ${PageIn} 1s forwards;
-  @media (max-width: 700px) {
+  /* @media (max-width: 700px) {
     padding-top: 15rem;
-  }
+  } */
 `;
 
 export const Section = styled.div`
