@@ -31,8 +31,10 @@ const Main = () => {
         </S.WordWrap>
         <S.ProfileImg src="/assets/profile.JPG" />
       </S.Section>
-      <S.Section style={{ justifyContent: "center", gap: "3rem",flexWrap:'wrap' }}>
-        <S.WordWrap style={{height:'min-content',gap:'1rem'}}>
+      <S.Section
+        style={{ justifyContent: "center", gap: "3rem", flexWrap: "wrap" }}
+      >
+        <S.WordWrap style={{ height: "min-content", gap: "1rem" }}>
           <S.SectionTitle>Skills</S.SectionTitle>
           <S.HashTagWrap>
             <S.HashTag>#Wanna</S.HashTag>
@@ -40,8 +42,10 @@ const Main = () => {
             <S.HashTag>#FullStack</S.HashTag>
           </S.HashTagWrap>
           <S.Description>
-            웹 개발을 일찍 시작했기에 학교에서 리액트를 빠르게 습득하고<br />
-            남들이 해보지 못한 여러가지 기술들을 해보며<br />
+            웹 개발을 일찍 시작했기에 학교에서 리액트를 빠르게 습득하고
+            <br />
+            남들이 해보지 못한 여러가지 기술들을 해보며
+            <br />
             아무도 가질 수 없는 값진 경험을 하는 중 입니다.
           </S.Description>
         </S.WordWrap>
@@ -59,6 +63,7 @@ const Main = () => {
             <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
             <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge" />
             <img src="https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" />
+            <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
           </S.ImageWrap>
           <S.SkillTitle>Back-End</S.SkillTitle>
           <S.ImageWrap>
